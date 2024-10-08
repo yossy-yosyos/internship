@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPIO Control</title>
+</head>
+<body>
+    <h1>&#x1f4a1;GPIO Pin Control&#x1f4a1;</h1>
+    <form action="/cgi-bin/1004cgi.cgi" method="GET">
+        <p>&#128715;<font color="#FF0000">Living Room</font>&#128715;: 
+            <button type="submit" name="pin" value="7&command=ON">ON</button>
+            <button type="submit" name="pin" value="7&command=OFF">OFF</button>
+        </p>
+        <p>&#127860;<font color="#0000FF">Kitchen</font>&#127860;: 
+            <button type="submit" name="pin" value="8&command=ON">ON</button>
+            <button type="submit" name="pin" value="8&command=OFF">OFF</button>
+        </p>
+        <p>&#128719;<font color="#008000">Bedroom</font>&#128719;: 
+            <button type="submit" name="pin" value="12&command=ON">ON</button>
+            <button type="submit" name="pin" value="12&command=OFF">OFF</button>
+        </p>
+        <p>&#128705;<font color="#800080">Bathroom</font>&#128705;: 
+            <button type="submit" name="pin" value="13&command=ON">ON</button>
+            <button type="submit" name="pin" value="13&command=OFF">OFF</button>
+        </p>
+    </form>
+</body>
+</html>
